@@ -38,8 +38,8 @@ def LineNotify():
     global postFlg
     postFlg = 0
     url = "https://notify-api.line.me/api/notify"
-    #token = "02mBhuc3Nx15jVDw2QcADvP6Vn6ehuZwZgsFogQUTEv"#Susumu's token
-    token = "kjiLoIkLRUQUHuq9HOGuuhJBMfs9M8LjdlF08oqNNEj"#Naritakun's token
+
+    token = "XXX"
     headers = {"Authorization" : "Bearer "+ token}
     message =  'FuzaiTsuuti'
     payload = {"message" :  message}
