@@ -1,6 +1,6 @@
 # すまポ
 
-[![Product Name](title2.png)](https://www.youtube.com/watch?v=cye_-X1kmJI)
+[![Product Name](title2.png)](https://www.youtube.com/watch?v=yz9begf0ojA&feature=youtu.be)
 
 ## 製品概要
 
