@@ -1,6 +1,6 @@
-# Smart Post(仮)
+# すまポ
 
-[![Product Name](Title.png)](https://www.youtube.com/watch?v=G5rULR53uMk)
+[![Product Name](title2.png)](https://www.youtube.com/watch?v=G5rULR53uMk)
 
 ## 製品概要
 
