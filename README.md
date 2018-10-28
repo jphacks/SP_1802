@@ -1,7 +1,7 @@
 # すまポ
 
 <p align="center">
-<a href="https://www.youtube.com/watch?v=yz9begf0ojA&feature=youtu.be"><img src="図1.png" alt="サンプル"></a>
+<a href="https://youtu.be/6c3txZBHWYQ"><img src="図1.png" alt="サンプル"></a>
 </p>
 
 ## 製品概要
