@@ -1,6 +1,6 @@
 # すまポ
 
-[![Product Name](title2.png)](https://www.youtube.com/watch?v=yz9begf0ojA&feature=youtu.be)
+[![Product Name](title2.png){.center-block}](https://www.youtube.com/watch?v=yz9begf0ojA&feature=youtu.be)
 
 ## 製品概要
 
@@ -21,9 +21,11 @@ Eコマースの発達とともに、直近5年では取扱個数が約6.1億個
 
 ### 製品説明（具体的な製品の説明）
 ポストに宅配物の不在票が届いたことがユーザーのスマートフォンに通知され、リアルタイムに再配達依頼が可能となるIoTデバイスを開発しました。今まで再三にわたって行われていた再配達を不在票の通知をリアルタイムにすることで、配達業者の人件費・輸送費などのコスト削減・輸送に伴うCO2排出量の削減、ユーザーの配達物のスムーズな受け取りを実現します。
-![概要図](概要図.jpg){.center-block}
+![概要図](概要図.jpg)
 
-### 不在票の認識システム{.center-block}
+### <div style="text-align: center;">
+【中央寄せにする文章を記述】
+</div>不在票の認識システム
 ![System](スライド1.png){.center-block}
 ### 特長
 
