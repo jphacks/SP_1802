@@ -238,21 +238,29 @@ if __name__ == "__main__":
         ret = sd.analyze(npChunk, recTime-chunkTimeLen, syncMode=syncMode)
         #print(type(ret))
         #targetEvent = "SmallBell"
-        targetEvent = "TimerAlarm"
+        #targetEvent = "TimerAlarm"
+        targetEvent = "chime1"
         borderValue = 0.1
         if len(ret) > 0 and ret[0]["eventName"]==targetEvent and ret[0]["eventScore"]>=borderValue:
             # クライアントを作成
-            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                # サーバを指定
-                #s.connect(('127.0.0.1', 50007))
-                #s.connect(('192.168.137.134', 50007))
-                s.connect(('172.20.10.7', 50007))
-                # サーバにメッセージを送る
-                s.sendall(b'hello from mac')
-                # ネットワークのバッファサイズは1024。サーバからの文字列を取得する
-                data = s.recv(1024)
-                #
-                print(repr(data))
-        
+            try:
+                with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                    # サーバを指定
+                    #s.connect(('127.0.0.1', 50007))
+                    #s.connect(('192.168.137.134', 50007))
+                    #s.connect(('172.20.10.7', 50007))
+                    s.connect(('192.168.100.127', 50007))
+                    # サーバにメッセージを送る
+                    s.sendall(b'hello from mac')
+                    # ネットワークのバッファサイズは1024。サーバからの文字列を取得する
+                    data = s.recv(1024)
+                    #
+                    print(repr(data))
+            except ConnectionRefusedError:
+                print("Cannot connect to raspi")
+            except TimeoutError:
+                print("connection timed out")
+            else:
+                print("Send message to raspi")
         sys.stdout.flush()
 
