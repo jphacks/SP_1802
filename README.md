@@ -4,8 +4,6 @@
 <a href="https://www.youtube.com/watch?v=yz9begf0ojA&feature=youtu.be"><img src="title2.png" alt="サンプル"></a>
 </p>
 
-[![Product Name](title2.png)](https://www.youtube.com/watch?v=yz9begf0ojA&feature=youtu.be)
-
 ## 製品概要
 
 ### Post×Tech
