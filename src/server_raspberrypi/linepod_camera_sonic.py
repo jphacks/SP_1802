@@ -22,8 +22,8 @@ import pyocr.builders
 
 postFlg = 0
 txt = 'Posting notice!'
-ip = '192.168.100.127'
-nec_id = 1028
+ip = 'xxx.xxx.xxx.xxx'
+nec_id = xxxx
 
 def ArduinoSensing():
     global postFlg
@@ -120,10 +120,7 @@ def LineNotify_NEC():
     global postFlg
     postFlg = 0
     url = "https://notify-api.line.me/api/notify"
-    #token = "02mBhuc3Nx15jVDw2QcADvP6Vn6ehuZwZgsFogQUTEv"#Susumu's token
-    #token = "kjiLoIkLRUQUHuq9HOGuuhJBMfs9M8LjdlF08oqNNEj"#Naritakun's token
-    #token = "OjNmI7SQEDdhYUlR6euEZ7kbWIVJoxAszxTbDvOt1k5"#Suzuki's token
-    token = "IzkUDCla74pRP1ZVUbmNXDIc3dALOd0Toh9QMZeZvgF"#takana's token
+    token = "xxxxxxxxx"
     headers = {"Authorization" : "Bearer "+ token}
     
     delivery_corp = res.json()[0]['associatedInfo'][0]
